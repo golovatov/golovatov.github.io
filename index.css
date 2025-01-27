@@ -3,6 +3,7 @@
 }
 .site-main {
     font-style: italic;
+    text-align: center;
 }
 body {
     display: flex;
