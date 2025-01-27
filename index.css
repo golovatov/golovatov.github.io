@@ -4,3 +4,26 @@
 .site-main {
     font-style: italic;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vn;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
